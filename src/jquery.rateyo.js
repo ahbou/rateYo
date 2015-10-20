@@ -59,7 +59,7 @@
   function checkBounds (value, minValue, maxValue) {
 
     var isValid = value >= minValue && value <= maxValue;
-
+    console.log(value+" "+minValue+" "maxValue);
     if(!isValid){
 
         throw Error("Invalid Rating, expected value between "+ minValue +
